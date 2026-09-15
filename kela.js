@@ -1,7 +1,6 @@
-score=90
-if score >=90:
-    print("Grade:A")
-elif score >=80:
-    print("Grade:B")
+num= int(input("Enter a number: :"))
+
+if num%2==0:
+    print("The number is even")
 else:
-    print("Grade:C")
+    print("The number is odd")
